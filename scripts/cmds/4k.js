@@ -43,7 +43,7 @@ module.exports = {
 
       const resultUrl = k.data.resultUrl;
 
-      message.reply({ body: "✨ | sᴜᴄᴄᴇsғᴜʟʟ ʏᴏᴜʀ 4ᴋ ɪᴍᴀɢᴇ\n\nʜᴇʀᴇ ᴛʜɪs ɪs ʏᴏᴜʀ ᴘʜᴏᴛᴏ", attachment: await global.utils.getStreamFromURL(resultUrl) });
+      message.reply({ body: "✨ | Done\n\na Here is your photo ", attachment: await global.utils.getStreamFromURL(resultUrl) });
     } catch (error) {
       message.reply("❌ | Error: " + error.message);
     }

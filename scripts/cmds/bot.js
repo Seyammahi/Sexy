@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "bot") return message.reply("ᴇɪ ʜᴀʟᴀʀ ᴘᴜᴛ (😒) ᴀʀᴇᴋ ʙᴀʀ ʙᴏᴛ ʙᴏʟʟᴇ ᴅʜᴏɪʀᴀ ᴜsᴛᴀ ᴅɪᴍᴜ ᴍɪʀᴀ ʙᴏʟᴇ ᴅᴀᴋᴏ ᴀᴍᴀᴋᴇ-!!😷");
+    if (event.body && event.body.toLowerCase() == "bot") return message.reply("Ami Bot Na Ami Tmr Jan Kolixar Tukra🫦🫦");
 }
 };
